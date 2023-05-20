@@ -1,0 +1,31 @@
+.containerHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.promptMsg {
+    font-size: 1.4rem;
+    font-family: cursive;
+    font-weight: 900;
+    color: red;
+}
+
+.welcomeMsg {
+    text-align: center;
+    font-family: cursive;
+    font-size: 3rem;
+    
+}
+
+.btn {
+    border: none;
+    background-color: black;
+    width: 10vw;
+    height: 6vh;
+    color: beige;
+    font-size: 1.5rem;
+    font-family: cursive;
+    margin: auto;
+}

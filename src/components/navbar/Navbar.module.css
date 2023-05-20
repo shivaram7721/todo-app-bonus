@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    width: 99vw;
+    height: 8vh;
+    align-items: center;
+    justify-content: center;
+    gap: 13rem;
+    background-color: rgb(146, 235, 205, .5);
+    position: fixed;
+}
+
+.link {
+    font-size: 1.7rem;
+    font-family: cursive;
+    font-weight: 900;
+}
+
+.link:hover {
+    color: brown;
+    text-decoration: underline;
+    cursor: pointer;
+}

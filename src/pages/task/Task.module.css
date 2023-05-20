@@ -1,0 +1,140 @@
+.todoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    /* width: 55vw; */
+    /* height: 55vh; */
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    /* width: 20vw; */
+    /* height: 30vh; */
+    border: none;
+    border-radius: 20px;
+    /* background-image: radial-gradient(circle, #afae51, #aa9d4a, #a38d45, #9a7e41, #906f3e);; */
+}
+
+/* .listContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+} */
+
+.input {
+    width: 15vw;
+    height: 4vh;
+    border-radius: 10px;
+    border: none;
+    font-family: cursive;
+    padding: .7rem;
+    background-color: aquamarine;
+}
+
+.input:hover {
+    background-color: lightblue;
+}
+
+.btn {
+    border: none;
+    width: 16vw;
+    height: 5vh;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+
+.btn:hover {
+    color: brown;
+    font-weight: 900;
+    border: 3px solid brown;
+}
+
+.todosContainer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 20vw;
+    border: 1px solid;
+    height: fit-content;
+    /* background-color: #906f3e; */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    /* justify-content: space-between; */
+}
+
+.iconsContainer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-right: 1.2rem;
+}
+
+.lengthContainer {
+
+}
+
+.length {
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    padding: 1rem;
+    width: 10vw;
+    background-color: #3e556e;
+    color: white;
+    font-family: cursive;
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+
+.todo {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    width: 11vw;
+    flex-wrap: wrap;
+    word-break: break-word;
+    padding: .5rem;
+}
+
+.editIcon {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.editIcon:hover {
+    background-color: rgb(201, 193, 193);
+}
+
+.deleteIcon {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.deleteIcon:hover {
+    background-color: rgb(201, 193, 193);
+}
+
+.todoEditContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid; */
+    width: 18vw;
+  }
